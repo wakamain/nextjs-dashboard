@@ -1,7 +1,6 @@
 import type { NextAuthConfig } from 'next-auth';
  
 export const authConfig = {
-  matcher: ['/((?!api|_next/static|_next/image|.*\\.png$).*)'],
   pages: {
     signIn: '/login',
   },
